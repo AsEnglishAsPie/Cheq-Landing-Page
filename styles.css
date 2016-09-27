@@ -1,0 +1,90 @@
+body {
+  text-align:center;
+}
+
+header {
+  padding: 20px 0;
+  background-color: #282B30;
+  background-size: cover;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+header h1 {
+  color: #F8F8F8;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+h1 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 64px;
+  font-weight: bolder;
+}
+
+h2 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 36px;
+  font-weight: bolder;
+}
+p {
+  font-family: 'Trykker', serif;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+img {
+  width: auto;
+  height: auto;
+}
+
+img.thumbnail {
+  width: auto;
+  height: auto;
+}
+
+.FirstPage {
+  display: flex;
+  align-items: center;
+  background-image: url("Images/First_Page_Background.png");
+  background-size: cover;
+  color:   #F8F8F8;
+  height: 800px;
+}
+
+.WhiteBackground {
+  background: white;
+  color:   #282B30;
+  padding-top: 85px;
+  padding-bottom: 85px;
+}
+
+.TealBackground {
+  background: #01A9AD;
+  color: #F8F8F8;
+  padding-top: 85px;
+  padding-bottom: 85px;
+}
+
+.Header-Footer {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 18px;
+  color: #00E3EA;
+}
+
+.logo {
+  width: 99px;
+  height: 40;
+}
