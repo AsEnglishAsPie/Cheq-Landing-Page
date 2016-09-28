@@ -17,6 +17,13 @@ main {
   margin: 0;
 }
 
+button {
+  background-color: #FFFFFF;
+  border: 4px solid #00DFE4;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+
 h1 {
   font-family: 'Libre Franklin', sans-serif;
   font-size: 70px;
@@ -34,7 +41,7 @@ p {
   font-weight: normal;
 }
 
-.StickyHeader {
+.header-container {
   background-color: #282B30;
   position: fixed;
   width: 100%;
@@ -48,38 +55,73 @@ p {
   height: 40px;
 }
 
-.Header-Footer {
+.header-text {
   font-family: 'Libre Franklin', sans-serif;
   font-size: 18px;
   color: #00E3EA;
   display: inline;
   float: right;
-  padding: 20px 30px 20px 30px;
+  padding: 20px 40px 20px 0;
 }
 
-.FirstPage {
+.first-page {
   display: center;
   text-align: center;
   background-image: url("Images/First_Page_Background.png");
   color:   #F8F8F8;
   height: 800px;
+  align-items: center;
 }
 
-.FirstPageText {
+.first-page-text {
   padding-top: 100px;
   margin: 0 auto;
   max-width: 750px;
 }
 
-.FirstPageText p {
+.first-page-text p {
   font-family: 'Libre Franklin', sans-serif;
   margin: 10px 0 10px 0;
 }
 
-.FirstPageText h1 {
+.first-page-text h1 {
   margin: 10px 0 20px 0;
 }
-.WhiteBackground {
+
+.get-cheq-container-dark {
+  width: 556px;
+  height: 172px;
+  background-color: rgba(40, 43, 48, 0.7);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.get-cheq-white {
+  font-family: 'Libre Franklin', sans-serif;
+  color: #F8F8F8;
+  font-size: 36px;
+  padding-top: 20px;
+}
+
+.small-button-text {
+  font-family: 'Libre Franklin', sans-serif;
+  color: #282B30;
+  font-size: 12px;
+  text-align: left;
+  margin: 2px;
+  padding-left: 50px;
+}
+
+.large-button-text {
+  font-family: 'Libre Franklin', sans-serif;
+  color: #282B30;
+  font-size: 18px;
+  text-align: left;
+  margin: 2px;
+  padding-left: 50px;
+}
+
+.white-background {
   background: white;
   color:   #282B30;
   background-size: cover;
@@ -87,10 +129,46 @@ p {
   padding-bottom: 85px;
 }
 
-.TealBackground {
+.teal-background {
   background: #01A9AD;
   color: #F8F8F8;
   background-size: 100%;
   padding-top: 85px;
   padding-bottom: 85px;
+}
+
+.icon {
+  width: 33px;
+  height: 33px;
+  margin: 10px;
+}
+
+.footer-container {
+  background-color: #282B30;
+  width: 100%;
+  margin-bottom: 0;
+  height: 70px;
+}
+
+.footer-text-left {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 18px;
+  color: #00E3EA;
+  display: inline;
+  float: left;
+  padding: 0px 0 0px 40px;
+}
+
+.social-icons {
+  float: left;
+  padding: 0px 0 0px 40px;
+}
+
+.footer-text-right {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 18px;
+  color: #00E3EA;
+  display: inline;
+  float: right;
+  padding: 0px 40px 0px 0;
 }
