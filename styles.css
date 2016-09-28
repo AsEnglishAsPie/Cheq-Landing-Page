@@ -1,3 +1,7 @@
+*/* {
+  box-sizing: border-box;
+}*/
+
 body {
   text-align:center;
   margin: 0;
@@ -21,6 +25,7 @@ h1 {
   font-family: 'Libre Franklin', sans-serif;
   font-size: 70px;
   font-weight: bold;
+  margin: 10px 0 10px 0;
 }
 
 h2 {
@@ -69,16 +74,12 @@ p {
 .first-page-text {
   padding-top: 130px;
   margin: 0 auto;
-  max-width: 750px;
+  max-width: 67%;
 }
 
 .first-page-text p {
   font-family: 'Libre Franklin', sans-serif;
   margin: 10px 0 10px 0;
-}
-
-.first-page-text h1 {
-  margin: 10px 0 20px 0;
 }
 
 .get-cheq-container-dark {
@@ -137,20 +138,68 @@ p {
   padding-right: 10px;
 }
 
+.how-it-works-header {
+  background-color: #01A9AD;
+  color: #F8F8F8;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.how-it-works-header h1 {
+  font-size: 42px;
+}
+
+.narrative-text-left {
+  max-width: 33%;
+  float: left;
+  margin-top: 17%;
+  margin-left: 17%;
+  text-align: left;
+}
+
+.illustration {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .white-background {
   background: white;
   color:   #282B30;
   background-size: cover;
-  padding-top: 85px;
-  padding-bottom: 85px;
+}
+
+.narrative-text-right {
+  max-width: 33%;
+  float: right;
+  margin-top: 10%;
+  margin-right: 17%;
+  text-align: left;
 }
 
 .teal-background {
   background: #01A9AD;
   color: #F8F8F8;
-  background-size: 100%;
-  padding-top: 85px;
-  padding-bottom: 85px;
+}
+
+.last-page {
+  display: center;
+  text-align: center;
+  color: #282B30;
+  height: 600px;
+  align-items: center;
+}
+
+.last-page-text {
+  padding-top: 70px;
+  margin: 0 auto;
+  max-width: 67%;
+}
+
+.thumbnail {
+  margin: 20px 20px 20px 0;
 }
 
 .icon {
