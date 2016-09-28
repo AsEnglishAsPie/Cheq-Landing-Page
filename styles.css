@@ -17,13 +17,6 @@ main {
   margin: 0;
 }
 
-button {
-  background-color: #FFFFFF;
-  border: 4px solid #00DFE4;
-  border-radius: 4px;
-  margin-right: 20px;
-}
-
 h1 {
   font-family: 'Libre Franklin', sans-serif;
   font-size: 70px;
@@ -74,7 +67,7 @@ p {
 }
 
 .first-page-text {
-  padding-top: 100px;
+  padding-top: 130px;
   margin: 0 auto;
   max-width: 750px;
 }
@@ -89,18 +82,39 @@ p {
 }
 
 .get-cheq-container-dark {
-  width: 556px;
-  height: 172px;
+  width: 450px;
   background-color: rgba(40, 43, 48, 0.7);
+  padding: 5px 0px 5px 0;
+  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .get-cheq-white {
   font-family: 'Libre Franklin', sans-serif;
-  color: #F8F8F8;
+  font-weight: bold;
+  color: #00E3EA;
   font-size: 36px;
-  padding-top: 20px;
+  margin: 20px 0 0 0;
+}
+
+.button-turquoise-border {
+  background-color: #FFFFFF;
+  border: 4px solid #00DFE4;
+  border-radius: 4px;
+  margin: 20px 10px 20px 10px;
+}
+
+.google-play-button {
+  background-image: url("Images/Google_Play_Button_Background.svg");
+  background-position:left;
+  background-size: cover;
+}
+
+.app-store-button {
+  background-image: url("Images/App_Store_Button_Background.svg");
+  background-position:left;
+  background-size: cover;
 }
 
 .small-button-text {
@@ -109,7 +123,8 @@ p {
   font-size: 12px;
   text-align: left;
   margin: 2px;
-  padding-left: 50px;
+  padding-left: 40px;
+  padding-right: 10px;
 }
 
 .large-button-text {
@@ -118,7 +133,8 @@ p {
   font-size: 18px;
   text-align: left;
   margin: 2px;
-  padding-left: 50px;
+  padding-left: 40px;
+  padding-right: 10px;
 }
 
 .white-background {
@@ -141,6 +157,30 @@ p {
   width: 33px;
   height: 33px;
   margin: 10px;
+}
+
+.get-cheq-container-turquoise {
+  width: 450px;
+  background-color: #00E3EA;
+  padding: 5px 0px 5px 0;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.get-cheq-dark {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: bold;
+  color: #282B30;
+  font-size: 36px;
+  margin: 20px 0 0 0;
+}
+
+.button-dark-border {
+  background-color: #FFFFFF;
+  border: 4px solid #282B30;
+  border-radius: 4px;
+  margin: 20px 10px 20px 10px;
 }
 
 .footer-container {
