@@ -1,11 +1,6 @@
 body {
   text-align:center;
-}
-
-header {
-  padding: 20px 0;
-  background-color: #282B30;
-  background-size: cover;
+  margin: 0;
 }
 
 header p {
@@ -17,21 +12,15 @@ header h1 {
   color: #F8F8F8;
 }
 
-header .row,
-footer .row {
-  display: flex;
-  align-items: center;
-}
-
-header nav {
-  display: flex;
-  justify-content: flex-end;
+main {
+  width: 100%;
+  margin: 0;
 }
 
 h1 {
   font-family: 'Libre Franklin', sans-serif;
-  font-size: 64px;
-  font-weight: bolder;
+  font-size: 70px;
+  font-weight: bold;
 }
 
 h2 {
@@ -45,28 +34,55 @@ p {
   font-weight: normal;
 }
 
-img {
-  width: auto;
-  height: auto;
+.StickyHeader {
+  background-color: #282B30;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
-img.thumbnail {
-  width: auto;
-  height: auto;
+.logo {
+  float: left;
+  padding: 12px 0 12px 30px;
+  width: 99px;
+  height: 40px;
+}
+
+.Header-Footer {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 18px;
+  color: #00E3EA;
+  display: inline;
+  float: right;
+  padding: 20px 30px 20px 30px;
 }
 
 .FirstPage {
-  display: flex;
-  align-items: center;
+  display: center;
+  text-align: center;
   background-image: url("Images/First_Page_Background.png");
-  background-size: cover;
   color:   #F8F8F8;
   height: 800px;
 }
 
+.FirstPageText {
+  padding-top: 100px;
+  margin: 0 auto;
+  max-width: 750px;
+}
+
+.FirstPageText p {
+  font-family: 'Libre Franklin', sans-serif;
+  margin: 10px 0 10px 0;
+}
+
+.FirstPageText h1 {
+  margin: 10px 0 20px 0;
+}
 .WhiteBackground {
   background: white;
   color:   #282B30;
+  background-size: cover;
   padding-top: 85px;
   padding-bottom: 85px;
 }
@@ -74,17 +90,7 @@ img.thumbnail {
 .TealBackground {
   background: #01A9AD;
   color: #F8F8F8;
+  background-size: 100%;
   padding-top: 85px;
   padding-bottom: 85px;
-}
-
-.Header-Footer {
-  font-family: 'Libre Franklin', sans-serif;
-  font-size: 18px;
-  color: #00E3EA;
-}
-
-.logo {
-  width: 99px;
-  height: 40;
 }
