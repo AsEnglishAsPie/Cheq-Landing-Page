@@ -376,11 +376,18 @@ p {
     margin-bottom: 2rem;
     text-align: center;
   }
-
+  .teal-background-two-paragraph {
+    background: #01A9AD;
+    color: #F8F8F8;
+    float: left;
+    width: 100%;
+    min-height: 42rem;
+  }
   .narrative-text-right-first-paragraph {
     max-width: 66%;
-    float: none;
-    padding-top: 2rem;
+    float: left;
+    padding-top: 0;
+    margin-top: 2rem;
     margin-right: 17%;
     margin-left: 17%;
     padding-bottom: 2rem;
@@ -388,12 +395,12 @@ p {
   }
   .narrative-text-right-second-paragraph {
     max-width: 66%;
-    float: none;
+    float: left;
     margin-right: 17%;
     margin-top: 0;
     text-align: center;
-    margin-left: 17%;
     padding-bottom: 2rem;
+    margin-left: 17%;
   }
   .illustration-left-float {
     margin-top: 0;
