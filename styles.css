@@ -333,14 +333,24 @@ p {
 @media only screen
   and (max-device-width: 500px) {
   h1 {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
   }
   h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   p {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
+  .logo {
+    margin: 0.7rem 0 0.7rem 2rem;
+    width: 8rem;
+  }
+  .header-text {
+    font-size: 1.8rem;
+  }
+  .first-page-text {
+    max-width: 90%;
+}
   .first-page-text p {
     font-size: 0.7rem;
   }
@@ -359,48 +369,54 @@ p {
     padding-left: 4rem;
   }
   .narrative-text-left {
-    max-width: 66%;
+    max-width: 90%;
+    min-width: 90%;
     float: left;
     margin-top: 2rem;
-    margin-left: 17%;
-    margin-right: 17%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-bottom: 2rem;
     text-align: center;
   }
   .narrative-text-right {
-    max-width: 66%;
+    max-width: 90%;
+    min-width: 90%;
     float: left;
     margin-top: 2rem;
-    margin-left: 17%;
-    margin-right: 17%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-bottom: 2rem;
     text-align: center;
   }
   .teal-background-two-paragraph {
     background: #01A9AD;
     color: #F8F8F8;
-    float: left;
+    float: none;
     width: 100%;
     min-height: 42rem;
+    padding-top: 2rem;
   }
   .narrative-text-right-first-paragraph {
-    max-width: 66%;
-    float: left;
+    max-width: 90%;
+    min-width: 90%;
+    font-size: inherit;
+    float: none;
     padding-top: 0;
     margin-top: 2rem;
-    margin-right: 17%;
-    margin-left: 17%;
+    margin-right: 5%;
+    margin-left: 5%;
     padding-bottom: 2rem;
     text-align: center;
   }
   .narrative-text-right-second-paragraph {
-    max-width: 66%;
-    float: left;
-    margin-right: 17%;
+    max-width: 90%;
+    min-width: 90%;
+    float: none;
+    margin-right: 5%;
+    margin-left: 5%;
     margin-top: 0;
-    text-align: center;
     padding-bottom: 2rem;
-    margin-left: 17%;
+    text-align: center;
   }
   .illustration-left-float {
     margin-top: 0;
