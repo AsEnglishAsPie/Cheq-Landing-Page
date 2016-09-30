@@ -167,6 +167,13 @@ p {
   padding-bottom: 3.125rem;
 }
 
+.illustration-left-float {
+  margin-top: 3.125rem;
+  margin-bottom: 3.125rem;
+  padding-left: 17%;
+  float: left;
+}
+
 .white-background {
   background: white;
   color:   #282B30;
@@ -181,17 +188,41 @@ p {
   text-align: left;
 }
 
+.narrative-text-right-first-paragraph {
+  max-width: 33%;
+  float: right;
+  margin-top: 7%;
+  margin-right: 17%;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.narrative-text-right-second-paragraph {
+  max-width: 33%;
+  float: right;
+  margin-right: 17%;
+  margin-top: 0;
+  text-align: left;
+}
+
 .teal-background {
   background: #01A9AD;
   color: #F8F8F8;
 }
 
+.teal-background-two-paragraph {
+  background: #01A9AD;
+  color: #F8F8F8;
+  float: none;
+  min-height: 42rem;
+}
+
 .last-page-container {
-  display: center;
+  clear: both;
+  display: block;
   text-align: center;
   background-image: url("Images/Last_Page_Background.png");
   color: #282B30;
-  /*height: 37.5rem;*/
   padding-bottom: 6rem;
   align-items: center;
 }
@@ -303,10 +334,10 @@ p {
     font-size: 3.5rem;
   }
   h2 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   p {
-    font-size: 1.4rem;
+    font-size: 2rem;
   }
   .first-page-text p {
     font-size: 0.7rem;
@@ -324,5 +355,50 @@ p {
   .large-button-text {
     font-size: 2rem;
     padding-left: 4rem;
+  }
+  .narrative-text-left {
+    max-width: 66%;
+    float: left;
+    margin-top: 2rem;
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .narrative-text-right {
+    max-width: 66%;
+    float: left;
+    margin-top: 2rem;
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .narrative-text-right-first-paragraph {
+    max-width: 66%;
+    float: none;
+    padding-top: 2rem;
+    margin-right: 17%;
+    margin-left: 17%;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+  .narrative-text-right-second-paragraph {
+    max-width: 66%;
+    float: none;
+    margin-right: 17%;
+    margin-top: 0;
+    text-align: center;
+    margin-left: 17%;
+    padding-bottom: 2rem;
+  }
+  .illustration-left-float {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
