@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
@@ -62,13 +63,14 @@ p {
   margin: 1.25rem 2.5rem 1.25rem 0;
 }
 
-.first-page {
+.first-page-container {
   display: center;
   text-align: center;
   background-image: url("Images/First_Page_Background.png");
+  background-size: cover;
   color:   #F8F8F8;
-  height: 50rem;
   align-items: center;
+  padding-bottom: 6rem;
 }
 
 .first-page-text {
@@ -184,11 +186,13 @@ p {
   color: #F8F8F8;
 }
 
-.last-page {
+.last-page-container {
   display: center;
   text-align: center;
+  background-image: url("Images/Last_Page_Background.png");
   color: #282B30;
-  height: 37.5rem;
+  /*height: 37.5rem;*/
+  padding-bottom: 6rem;
   align-items: center;
 }
 
@@ -260,4 +264,21 @@ p {
   display: inline;
   float: right;
   padding: 0 2.5rem 0 0;
+}
+
+@media only screen
+  and (max-device-width: 1000px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+}
+  p {
+    font-size: 1.4rem;
+  }
+
+  .first-page-text p {
+    font-size: 0.7rem;
+  }
 }
