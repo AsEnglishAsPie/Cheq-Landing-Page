@@ -183,7 +183,7 @@ p {
 .narrative-text-right {
   max-width: 33%;
   float: right;
-  margin-top: 10%;
+  margin-top: 8%;
   margin-right: 17%;
   text-align: left;
 }
@@ -328,6 +328,12 @@ p {
   .narrative-text-right {
     margin-top: 7%;
   }
+  .narrative-text-right-first-paragraph {
+    padding: 0;
+  }
+  .narrative-text-right-second-paragraph {
+    padding: 0;
+  }
 }
 
 @media only screen
@@ -352,7 +358,7 @@ p {
     max-width: 90%;
 }
   .first-page-text p {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
   .get-cheq-container-dark {
     width: 55rem;
