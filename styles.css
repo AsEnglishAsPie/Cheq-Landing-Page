@@ -348,11 +348,12 @@ p {
     font-size: 1.5rem;
   }
   .logo {
-    margin: 0.7rem 0 0.7rem 2rem;
-    width: 8rem;
+    margin: 1.5rem 0 1.5rem 2rem;
+    width: 10rem;
   }
   .header-text {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
+    margin-top: 1.9rem;
   }
   .first-page-text {
     max-width: 90%;
