@@ -272,13 +272,57 @@ p {
     font-size: 3.5rem;
   }
   h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  .first-page-text p {
+    font-size: 1.3rem;
+  }
+  .get-cheq-container-dark {
+    width: 30rem;
+  }
+  .get-cheq-container-turquoise {
+    width: 30rem;
+  }
+  .small-button-text {
+    font-size: 1rem;
+  }
+  .large-button-text {
+    font-size: 1.5rem;
+  }
+  .narrative-text-right {
+    margin-top: 7%;
+  }
 }
+
+@media only screen
+  and (max-device-width: 500px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
   p {
     font-size: 1.4rem;
   }
-
   .first-page-text p {
     font-size: 0.7rem;
+  }
+  .get-cheq-container-dark {
+    width: 40rem;
+  }
+  .get-cheq-container-turquoise {
+    width: 40rem;
+  }
+  .small-button-text {
+    font-size: 1.5rem;
+    padding-left: 4rem;
+  }
+  .large-button-text {
+    font-size: 2rem;
+    padding-left: 4rem;
   }
 }
