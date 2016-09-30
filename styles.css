@@ -355,18 +355,25 @@ p {
     font-size: 0.7rem;
   }
   .get-cheq-container-dark {
-    width: 40rem;
+    width: 55rem;
+  }
+
+  .get-cheq-white {
+    font-size: 3rem;
+  }
+  .get-cheq-dark {
+    font-size: 3rem;
   }
   .get-cheq-container-turquoise {
-    width: 40rem;
+    width: 55rem;
   }
   .small-button-text {
-    font-size: 1.5rem;
-    padding-left: 4rem;
+    font-size: 2rem;
+    padding-left: 6rem;
   }
   .large-button-text {
-    font-size: 2rem;
-    padding-left: 4rem;
+    font-size: 3rem;
+    padding-left: 6rem;
   }
   .narrative-text-left {
     max-width: 90%;
