@@ -1,14 +1,15 @@
-*/* {
+*{
   box-sizing: border-box;
-}*/
+}
 
 body {
+  font-size: 16px;
   text-align:center;
   margin: 0;
 }
 
 header p {
-  padding: 0 20px;
+  padding: 0 1rem;
   margin: 0;
 }
 
@@ -23,19 +24,19 @@ main {
 
 h1 {
   font-family: 'Libre Franklin', sans-serif;
-  font-size: 70px;
+  font-size: 4.3rem;
   font-weight: bold;
-  margin: 10px 0 10px 0;
+  margin: 1rem 0 1rem 0;
 }
 
 h2 {
   font-family: 'Libre Franklin', sans-serif;
-  font-size: 36px;
-  font-weight: bolder;
+  font-size: 2.3rem;
+  font-weight: bold;
 }
 p {
   font-family: 'Trykker', serif;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: normal;
 }
 
@@ -48,18 +49,17 @@ p {
 
 .logo {
   float: left;
-  padding: 12px 0 12px 30px;
-  width: 99px;
-  height: 40px;
+  margin: 0.5rem 0 0.5rem 2rem;
+  width: 6.2rem;
 }
 
 .header-text {
   font-family: 'Libre Franklin', sans-serif;
-  font-size: 18px;
+  font-size: 1.2rem;
   color: #00E3EA;
   display: inline;
   float: right;
-  padding: 20px 40px 20px 0;
+  margin: 1.25rem 2.5rem 1.25rem 0;
 }
 
 .first-page {
@@ -67,26 +67,26 @@ p {
   text-align: center;
   background-image: url("Images/First_Page_Background.png");
   color:   #F8F8F8;
-  height: 800px;
+  height: 50rem;
   align-items: center;
 }
 
 .first-page-text {
-  padding-top: 130px;
+  padding-top: 8.2rem;
   margin: 0 auto;
   max-width: 67%;
 }
 
 .first-page-text p {
   font-family: 'Libre Franklin', sans-serif;
-  margin: 10px 0 10px 0;
+  margin: 1rem 0 1rem 0;
 }
 
 .get-cheq-container-dark {
-  width: 450px;
+  width: 28.12rem;
   background-color: rgba(40, 43, 48, 0.7);
-  padding: 5px 0px 5px 0;
-  margin-top: 50px;
+  padding: 0.5rem 0 0.5rem 0;
+  margin-top: 3.12rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -95,15 +95,15 @@ p {
   font-family: 'Libre Franklin', sans-serif;
   font-weight: bold;
   color: #00E3EA;
-  font-size: 36px;
-  margin: 20px 0 0 0;
+  font-size: 2.25rem;
+  margin: 1rem 0 0 0;
 }
 
 .button-turquoise-border {
   background-color: #FFFFFF;
-  border: 4px solid #00DFE4;
-  border-radius: 4px;
-  margin: 20px 10px 20px 10px;
+  border: 0.25rem solid #00DFE4;
+  border-radius: 0.25rem;
+  margin: 1rem 0.5rem 1rem 0.5rem;
 }
 
 .google-play-button {
@@ -121,21 +121,21 @@ p {
 .small-button-text {
   font-family: 'Libre Franklin', sans-serif;
   color: #282B30;
-  font-size: 12px;
+  font-size: 0.75rem;
   text-align: left;
-  margin: 2px;
-  padding-left: 40px;
-  padding-right: 10px;
+  margin: 0.125rem;
+  padding-left: 2.5rem;
+  padding-right: 0.625rem;
 }
 
 .large-button-text {
   font-family: 'Libre Franklin', sans-serif;
   color: #282B30;
-  font-size: 18px;
+  font-size: 1.125rem;
   text-align: left;
-  margin: 2px;
-  padding-left: 40px;
-  padding-right: 10px;
+  margin: 0.125rem;
+  padding-left: 2.5rem;
+  padding-right: 0.625rem;
 }
 
 .how-it-works-header {
@@ -143,13 +143,13 @@ p {
   color: #F8F8F8;
   width: 100%;
   margin-top: 0;
-  margin-bottom: 10px;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  margin-bottom: 1rem;
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
 }
 
 .how-it-works-header h1 {
-  font-size: 42px;
+  font-size: 2.625rem;
 }
 
 .narrative-text-left {
@@ -161,8 +161,8 @@ p {
 }
 
 .illustration {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
 }
 
 .white-background {
@@ -188,31 +188,31 @@ p {
   display: center;
   text-align: center;
   color: #282B30;
-  height: 600px;
+  height: 37.5rem;
   align-items: center;
 }
 
 .last-page-text {
-  padding-top: 70px;
+  padding-top: 4.375rem;
   margin: 0 auto;
   max-width: 67%;
 }
 
 .thumbnail {
-  margin: 20px 20px 20px 0;
+  margin: 1rem 1rem 1rem 0;
+  height: 8rem;
 }
 
 .icon {
-  width: 33px;
-  height: 33px;
-  margin: 10px;
+  width: 2rem;
+  margin: 1rem;
 }
 
 .get-cheq-container-turquoise {
-  width: 450px;
+  width: 28.12rem;
   background-color: #00E3EA;
-  padding: 5px 0px 5px 0;
-  margin-top: 50px;
+  padding: 0.5rem 0 0.5rem 0;
+  margin-top: 3.12rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -221,43 +221,43 @@ p {
   font-family: 'Libre Franklin', sans-serif;
   font-weight: bold;
   color: #282B30;
-  font-size: 36px;
-  margin: 20px 0 0 0;
+  font-size: 2.25rem;
+  margin: 1rem 0 0 0;
 }
 
 .button-dark-border {
   background-color: #FFFFFF;
-  border: 4px solid #282B30;
-  border-radius: 4px;
-  margin: 20px 10px 20px 10px;
+  border: 0.25rem solid #282B30;
+  border-radius: 0.25rem;
+  margin: 1rem 0.5rem 1rem 0.5rem;
 }
 
 .footer-container {
   background-color: #282B30;
   width: 100%;
   margin-bottom: 0;
-  height: 70px;
+  height: 4.375rem;
 }
 
 .footer-text-left {
   font-family: 'Libre Franklin', sans-serif;
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #00E3EA;
   display: inline;
   float: left;
-  padding: 0px 0 0px 40px;
+  padding: 0px 0 0px 2.5rem;
 }
 
 .social-icons {
   float: left;
-  padding: 0px 0 0px 40px;
+  padding: 0 0 0 2.5rem;
 }
 
 .footer-text-right {
   font-family: 'Libre Franklin', sans-serif;
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #00E3EA;
   display: inline;
   float: right;
-  padding: 0px 40px 0px 0;
+  padding: 0 2.5rem 0 0;
 }
